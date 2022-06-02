@@ -1,0 +1,225 @@
+* {margin: 0px;
+   padding: 0px;
+   position: relative;
+  }
+
+  body {
+      background-color: rgb(50, 91, 168);
+  }
+
+
+.cabecera {
+    width:auto;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    background-color:rgb(26, 75, 167);
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    max-width: 600px;
+}
+
+form {
+    width:auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:rgb(26, 75, 167);
+    color: white;
+    max-width: 600px;
+ 
+}
+
+
+
+
+form input[type="text"] {
+    width: 75vw;
+    height: 50px;
+    padding:1px 6px;
+    border:1px solid #0e11b9;
+    border-radius:3px;
+    background-color:#f6f6f6;
+    margin: 5px;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    max-width: 540px;
+    text-align: right;
+}
+
+
+.display {
+    background-color: rgb(46, 101, 204);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.teclado {
+    background-color: rgb(46, 101, 204);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    height: auto;
+}
+
+.linea {
+    width: auto;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+/*ESTILOS DE LOS BOTONES NUMERICOS*/
+
+a.numeros {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgb(26, 75, 167);
+    background-color: rgb(154, 156, 156);
+    padding: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(8, 5, 59);
+    display: inline-block;
+}
+
+a.numeros:hover {
+    background-color: rgb(214, 227, 96);
+}
+
+a.operadores {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgb(26, 75, 167);
+    background-color: rgb(154, 156, 156);
+    padding: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(8, 5, 59);
+}
+
+a.operadores:hover {
+    background-color: rgb(214, 227, 96);
+}
+
+a.operadoresSuma {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgb(26, 75, 167);
+    background-color: rgb(154, 156, 156);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(8, 5, 59);
+}
+
+a.operadoresSuma:hover {
+    background-color: rgb(214, 227, 96);
+}
+
+a.operadoresDiv {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgb(26, 75, 167);
+    background-color: rgb(154, 156, 156);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(154, 154, 155);
+   
+}
+
+a.operadoresDiv:hover {
+    background-color: rgb(154, 154, 155);
+    cursor: default;
+}
+
+a.simbolos {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgb(26, 75, 167);
+    background-color: rgb(154, 156, 156);
+    padding: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(8, 5, 59);
+}
+
+a.simbolos:hover {
+    background-color: rgb(57, 142, 207);
+}
+
+a.ce {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgb(26, 75, 167);
+    background-color: rgb(154, 156, 156);
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(8, 5, 59);
+}
+
+a.ce:hover {
+    background-color: rgb(251, 123, 107);
+}
+
+
